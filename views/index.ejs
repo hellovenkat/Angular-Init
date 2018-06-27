@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    
 
-  </head>
-  <body ng-app="app">
+<head>
+    <title>
+        <%= title %>
+    </title>
+
+
+</head>
+
+<body ng-app="app">
     <div ng-controller="first">
 
-<ng-button class="ng-button">abhii</ng-button>
-<section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-  <md-button>{{title1}}</md-button>
-  <md-button md-no-ink class="md-primary">Primary (md-noink)</md-button>
-  <md-button ng-disabled="true" class="md-primary">Disabled</md-button>
-  <md-button class="md-warn">{{title4}}</md-button>
-  <div class="label">Flat</div>
-</section>
+        <ng-button class="ng-button">venkat</ng-button>
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+            <md-button>{{title1}}</md-button>
+            <md-button md-no-ink class="md-primary">Primary (md-noink)</md-button>
+            <md-button ng-disabled="true" class="md-primary">Disabled</md-button>
+            <md-button class="md-warn">{{title4}}</md-button>
+            <div class="label">Flat</div>
+        </section>
 
-<section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-  <md-button class="md-raised">Button</md-button>
-  <md-button class="md-raised md-primary">Primary</md-button>
-  <md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
-  <md-button class="md-raised md-warn">Warn</md-button>
-  <div class="label">Raised</div>
-</section>
-<div>
-  <md-input-container>
-    <label>first  </label>
-    <input ng-model="contact.firstName">
-  </md-input-container>
-  <md-input-container>
-    <label>Last</label>
-    <input ng-model="contact.lastName">
-  </md-input-container>
-  <md-input-container>
-    <label>Phone</label>
-    <input ng-model="contact.phone">
-  </md-input-container>
-  <md-input-container>
-<md-button ng-click="submit()" class="md-raised md-warn">Submit</md-button>
-    
-  </md-input-container>
-</div>
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+            <md-button class="md-raised">Button</md-button>
+            <md-button class="md-raised md-primary">Primary</md-button>
+            <md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
+            <md-button class="md-raised md-warn">Warn</md-button>
+            <div class="label">Raised</div>
+        </section>
+        <div>
+            <md-input-container>
+                <label>first  </label>
+                <input ng-model="contact.firstName">
+            </md-input-container>
+            <md-input-container>
+                <label>Last</label>
+                <input ng-model="contact.lastName">
+            </md-input-container>
+            <md-input-container>
+                <label>Phone</label>
+                <input ng-model="contact.phone">
+            </md-input-container>
+            <md-input-container>
+                <md-button ng-click="submit()" class="md-raised md-warn">Submit</md-button>
+
+            </md-input-container>
+        </div>
     </div>
-  <!-- Your application bootstrap  -->
- 
+    <!-- Your application bootstrap  -->
 
-  </body>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-aria.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-messages.min.js"></script>
 
-  <!-- Angular Material Library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.js"></script>
-  
-  <script src="/javascripts/first.js"></script>
+</body>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
+<link rel='stylesheet' href='/stylesheets/style.css' />
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-messages.min.js"></script>
+
+<!-- Angular Material Library -->
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.js"></script>
+
+<script src="/javascripts/first.js"></script>
+
 </html>
